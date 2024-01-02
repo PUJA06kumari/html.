@@ -1,0 +1,16 @@
+
+img
+{
+    float: left;
+    margin: 20px;
+}
+.outer
+{
+    font-style: oblique;
+    font-size: 25px;
+}
+body
+{
+    background-image:url(./india-national-flag-isolated-3d-white-background.jpg);
+    background-size: cover;
+}
