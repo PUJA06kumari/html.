@@ -1,0 +1,52 @@
+body
+{
+    background-color:hsl(47, 88%, 63%) ;
+}
+.outer
+{
+   
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 100%) ;
+    
+    
+}
+
+#inner
+{
+    border: 0.5px solid black ;
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url(./illustration-article.svg);
+}
+
+.inner
+{
+    margin: 0 20px;
+}
+.para1
+{
+    font-weight: bold;
+}
+.para2 a
+{
+    text-decoration: none;
+    font-size: 27px;
+    color:hsl(47, 88%, 63%)  ;
+}
+.h1
+{
+    font-size: 20px;
+    width: fit-content;
+    background-color:hsl(47, 88%, 63%)  ;
+}
+
+.para3
+{
+    display: inline;
+}
