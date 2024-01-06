@@ -1,0 +1,232 @@
+*
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    color: bisque;
+    padding: 10px 70px;
+    
+   
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.menu
+{
+   list-style-type: none;
+    font-size: 25px;
+    }
+
+.menu li a 
+{
+    text-decoration: none;
+    color: bisque;
+    padding: 50px;
+   
+}
+
+.menu ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu li a:hover
+{
+    color: brown;
+}
+
+.logo
+{
+    background-color:rgb(188, 10, 10);
+    border-radius: 100%;
+    font-size: 15px;
+    padding: 8px ;
+    view-transition-name: laica;
+    font-style:italic
+}
+#hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 6, 6);
+    color: antiquewhite;
+    background-image: url("https://www.dhresource.com/0x0/f2/albu/g8/M00/E3/84/rBVaVF5q-d-AGEvcAACOeQl6wTQ367.jpg/grey-wallpapers-3d-stereo-geometric-abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .image  ul h2
+{
+    font-size: 80px;
+    font-style: italic;
+    padding: 50px 100px;
+}
+
+#hero .image 
+{
+    padding: 0 0 0 0 ;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.para h3
+{
+    font-size: 35px;
+    padding: 50px 0 0 0;
+    
+}
+
+.para p
+{
+    font-size: 25px;
+    padding: 0 0 0 100;
+    color:whitesmoke;
+}
+.para
+{
+    padding: 400px 0 0 0;
+    margin: 0 50px;
+}
+
+.image ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.image  ul li .h2{
+    padding: 0 10px0 0 0;
+}
+
+h4
+{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+
+.project-it
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+   padding: 0 150px;
+   gap: 200px;
+   width: 100px;
+    align-items: center;
+    
+}
+
+.project
+{
+    border: 2px solid black;
+    background: white;
+}
+
+h5
+{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project p
+{
+   padding: 0 15px;
+    font-size: 30px;
+    color:gray;
+}
+#Features
+{
+    background: #323232;
+ 
+}
+
+
+
+
+
+.soon {
+    background: var(--gradient);
+    min-height: 80vh;
+    position: relative;
+    z-index: 0;
+    background-image: url("https://www.dhresource.com/0x0/f2/albu/g8/M00/E3/84/rBVaVF5q-d-AGEvcAACOeQl6wTQ367.jpg/grey-wallpapers-3d-stereo-geometric-abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .soon img,
+.soon .circle,
+.soon p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.soon .circle {
+  z-index: -1;
+}
+
+
+.soon p {
+    top: 10%;
+  font-size: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-style: italic;
+  
+  }
+
+  .soon p span {
+    top: 10%;
+  font-size: 70px;
+  padding: 0 15px;
+  color: aliceblue;
+  font-style: italic;
+  }
+  .wave .wave
+  {
+    width: fit-content;
+    min-height: 200px;
+    width: 1480px;
+
+  }
+
+  footer{
+    background-color:black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+  }
+  footer ul
+  {
+display: flex;
+list-style-type: none;
+padding: 0 80px;
+gap: 50px;
+  }
+  
