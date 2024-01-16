@@ -1,0 +1,81 @@
+:root 
+{
+    --gradient: linear-gradient(90deg, #7f7fd5, #86a8e7, #f64f59);
+  }
+
+  body
+{
+    background-color: #7f7fd5;
+    
+    overflow: hidden;
+    font-family: "Bungee", cursive;
+    margin: 0 0 0;
+    min-height: 100vh;
+    font-size: 1.125em;
+  line-height: 3.5;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 20s infinite alternate;
+}
+.container
+{
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.15); 
+    background: #fff;
+  width: 70vw;
+  padding: 3rem;
+}
+
+@keyframes bg-animation {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+  .title
+  {
+    margin: 1rem;
+    font-weight: 900;
+    font-style: italic;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #7f7fd5;
+    line-height: 0.8;
+  background-size: 300%;
+  transition: background-position 1s;
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+ }
+
+  .title:hover {
+    background-position: right;
+    
+  }
+  
+  .btn {
+    color: #fff;
+    font: inherit;
+    border: 0;
+    cursor: pointer;
+    padding: 0.2rem 1.2rem;
+    line-height: 3.0;
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #7f7fd5;
+    background: var(--gradient);
+  }
+  
+  .btn:hover {
+    background-position: right;
+  }
+  
