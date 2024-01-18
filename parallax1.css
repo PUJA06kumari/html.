@@ -1,0 +1,118 @@
+body
+{
+    box-sizing: border-box;
+}
+.img1
+{
+    background-image: url(./manikaran.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img2
+{
+    background-image: url(./Dudhsagar_falls_with_train.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img3
+{
+    background-image: url(./root-bridge-meghalaya.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img4
+{
+    background-image: url(./majuli-island.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img5
+{
+    background-image: url(./chandipur-beach.webp);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hh
+{
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.hh h2
+{
+    text-align: center;
+    color: aliceblue;
+}
+
+.hh p
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .heading {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .text2 {
+    position: absolute;
+    top: 180%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .text3 {
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .text4 {
+    position: absolute;
+    top: 430%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .text5 {
+    position: absolute;
+    top: 560%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
