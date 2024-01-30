@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX SIZE INCREASE</title>
+<link rel="shortcut icon" href="https://icon-library.com/images/box-icon/box-icon-14.jpg" type="image/x-icon">
+   
+</head>
+<body style="background-color: rgb(48, 7, 7);box-sizing: border-box;">
+    
+    <div>
+        <div style="border:1px solid black;height: 100px; width: 100px;background-color: cornsilk;box-shadow: 2px solid wheat;" id="divv">
+        </div>
+        <button onclick="change()" style="display: flex;justify-content: center;align-items: center;margin-left:0px;margin-top: 0px;">CLICK</button>
+    </div>
+
+    <script>
+        function change()
+        {
+            console.log("button clicked")
+            const number = Math.ceil(Math.random()*500)
+            document.getElementById('divv').style.height =number+ "px"
+            document.getElementById('divv').style.width =number+ "px"
+        }
+    </script>
+</body>
+</html>
