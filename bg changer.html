@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Colour Changer </title>
+</head>
+<body style="padding: 300px;padding-left: 650px;box-sizing: border-box;">
+    <button onclick="change()" style="display: flex; justify-content: center; align-items: center;height: 100px;border-radius: 20px;font-weight: bold;">Background Colour Changer </button>
+
+
+<script>
+let arr=["red","green","yellow","violet","blue","orange","black","maroon","grey","pink","skyblue"]
+function change()
+{
+    const index=Math.round(Math.random()*10000000).toString(16)
+    document.body.style.backgroundColor="#"+index
+}
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
