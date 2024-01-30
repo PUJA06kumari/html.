@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <div id="counter" style="display: flex;justify-content: center;align-items: center; flex-direction: column; ">
+        <img src="https://i1.sndcdn.com/avatars-000321909913-zhooh7-t500x500.jpg" id="image" onclick="turnonoff()" height="300px" width="400px"  >
+        <div id="buttons" style="margin-left: 500px;">
+            <button onclick="on()">ON</button>
+            <button onclick="off()">OFF</button>
+        </div>
+    </div>
+    <script>
+const mainDiv=document.getElementById('image')
+const button=document.getElementById('buttons')
+function on()
+{
+    image.src ="https://w0.peakpx.com/wallpaper/875/705/HD-wallpaper-light-bulb-blackberry-cool-druffix-funny-galaxy-home-screen-iphone-lamp-love-night-retro-samsung-yellow.jpg ";
+}
+function off()
+{
+    image.src ="https://i1.sndcdn.com/avatars-000321909913-zhooh7-t500x500.jpg";
+}    
+           
+
+
+
+    </script>
+</body>
+</html>
