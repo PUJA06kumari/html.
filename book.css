@@ -1,6 +1,12 @@
+body
+{
+background-color: black; 
+color: aliceblue;
+}
 h1
 {
     text-align: center;
+    color: aliceblue;
 }
 #books
 {
@@ -14,14 +20,22 @@ h1
 {
     height: 800px;
     width: 350px;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 0px 19px 38px 0px rgb(251, 250, 250),
+0px 15px 12px 0px rgb(252, 252, 252); 
+box-shadow: 0 45px 65px rgb(252, 251, 251), 0 35px 22px rgb(251, 250, 250);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-left: 15px;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 22);
+    margin-bottom: 30px;
 }
 .book:hover
 {
-    background-color: rgba(60, 22, 22, 0.14);
+    background-color: rgb(43, 43, 33);
+    transform: scale(0.9);
+    box-shadow: 0px 19px 38px 0px rgb(251, 250, 250),
+    0px 15px 12px 0px rgb(252, 252, 252); 
 }
