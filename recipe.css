@@ -1,0 +1,85 @@
+*
+{
+    box-sizing: border-box;
+}
+#cap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:120px ;
+    border: 1px transparent white; 
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-style : cursive;
+    color:rgba(226, 18, 53, 0.933);
+    margin-left: 120px;
+    font-style: oblique 10deg;
+}
+#recipes
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+.recipe
+{
+    height: 650px;
+    width: 450px;
+    box-shadow: 0px 19px 38px 0px rgb(240, 79, 79),
+0px 15px 12px 0px rgb(231, 91, 91); 
+box-shadow: 0 45px 65px rgb(225, 87, 87), 0 35px 22px rgb(228, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 22);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    transform: rotateX('60deg');
+    padding-top: 0px;
+}
+
+.recipe:hover
+{
+    
+    background-color: rgba(127, 12, 12, 0.948);
+    transform: scale(0.9);
+    color: rgb(247, 241, 241);
+    border-radius: 10px;
+    box-shadow: 0px 19px 38px 0px yellow,
+    0px 15px 12px 0px yellow; 
+    transform: rotateX('60deg');
+   
+}
+.recipe img
+{
+    height: 350px;
+    animation: bounce 0.5s; 
+    animation-direction: alternate; 
+    animation-iteration-count: infinite;
+    padding-bottom: 20px; 
+    padding-top: 0;
+    padding-right: 0;
+    
+}
+@keyframes bounce { 
+    from { 
+        transform: translate3d(10px, 10px, 10px); 
+    } 
+    to { 
+        transform: translate3d(10px, 20px, 10px); 
+    } 
+} 
+ 
