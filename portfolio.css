@@ -823,12 +823,17 @@ iframe
   align-items: center;
   margin-right: 50px;
 }
+.right-right1 h5
+{
+  margin-right: 50px;
+}
 .right-right2
 {
   display: block;
   justify-content: center;
   align-items: center;
   margin-left: 100px;
+  margin-bottom: 30px;
 }
 .mywork
 {
