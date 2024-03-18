@@ -419,7 +419,7 @@ footer {
 
   
 /*mobile*/
-  @media (min-width:768px) and (max-width:1024px){
+  @media ((min-width:685px) and (max-width:1024px)){
 .head
 {
     display: flex;
@@ -578,12 +578,13 @@ button
 }
 #services
 {
-   margin-left: 100px;
+   margin-left: 10px;
   margin-top: 100px;
 }
 .services
 {
   height: 100px;
+  margin-right: 0px;
 }
 .left-box
 {
@@ -616,6 +617,10 @@ margin-top: 50px;
 {
   margin-top: -150px;
   margin:30px 0 0 0;
+}
+.para1 a
+{
+  font-size: 20px;
 }
 .contact-right
 {
@@ -654,15 +659,15 @@ h4
 .me
 {
   margin-bottom: 140px;
-  margin-left: 200px;
+  margin-left: 50px;
   font-size: 30px;
 }
 footer {
     margin-top: 30px;
     background-color: #262626;
     background-image: url(https://i.ibb.co/Fsc8R8H/satellite.png);
-    background-size: 10%;
-    background-repeat: no-repeat;
+    background-size: 20%;
+    background-repeat:no-repeat;
     background-position: bottom center;
   }
 
@@ -697,7 +702,7 @@ footer {
 
 /*mobile responsive*/
 
-  @media (min-width:360px) and (max-width:767px)
+  @media ((min-width:360px) and (max-width:684px))
   {
     .head
 {
@@ -874,7 +879,7 @@ iframe
   display: block;
   justify-content: center;
   align-items: center;
-  margin-right: 100px;
+  margin-left: 100px;
 }
 .services
 {
